@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celeste - Capítulo 8: Núcleo</title>
+
+    <link rel="stylesheet" href="../../../style.css">
+
+    <link rel="stylesheet" href="../../fases.css">
+
+    <script src="https://kit.fontawesome.com/32132f73ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-image: url(../../../imgs/core.webp);">
+    <header class="header">
+        <a href="../../../index.html"><img src="../../../assets/logo.webp" alt="LOGO"></a>
+        <nav>
+            <a href="../../../subsites/fases.html">
+                <p>fases</p>
+            </a>
+            <a href="../../../subsites/personagens.html">
+                <p>personagens</p>
+            </a>
+            <a href="../../../subsites/historia.html">
+                <p>história</p>
+            </a>
+            <a href="../../../subsites/coletaveis.html">
+                <p>coletáveis</p>
+            </a>
+        </nav>
+        <img id="menubtn" onclick="menuhide()" src="../../../assets/pico8.png" alt="PICO8">
+    </header>
+
+    <div id="menu" class="menuhidden" style="z-index: 100;">
+        <div class="part">
+            <p class="l1"><a href="../../fases.html">Fases:</a></p>
+
+            <p class="l2">
+                <a href="../prologo.html">Prólogo</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../epilogo.html">Epílogo</a>
+            </p>
+
+            <br>
+
+            <p class="l2" id="A">
+                <a href="../../fases.html#sectionAtitle">Lado A</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistA">
+                <a href="./C1A.html">
+                    <p class="title"><span>1.</span> Cidade Abandonada</p>
+                </a>
+                <a href="./C2A.html">
+                    <p><span>2.</span> Terreno Antigo</p>
+                </a>
+                <a href="./C3A.html">
+                    <p><span>3.</span> Resort Celestial</p>
+                </a>
+                <a href="./C4A.html">
+                    <p><span>4.</span> Cordilheira Dourada</p>
+                </a>
+                <a href="./C5A.html">
+                    <p><span>5.</span> Templo do Espelho</p>
+                </a>
+                <a href="./C6A.html">
+                    <p><span>6.</span> Reflexão</p>
+                </a>
+                <a href="./C7A.html">
+                    <p><span>7.</span> O Cume</p>
+                </a>
+                <a href="./C8A.html">
+                    <p><span>8.</span> Núcleo</p>
+                </a>
+                <a href="./C9A.html">
+                    <p class="end"><span>9.</span> Adeus</p>
+                </a>
+            </div>
+
+            <p class="l2" id="B">
+                <a href="../../fases.html#sectionBtitle">Lado B</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistB">
+                <a href="../ladoB/C1B.html">
+                    <p class="title"><span>1.</span> Cidade Abandonada</p>
+                </a>
+                <a href="../ladoB/C2B.html">
+                    <p><span>2.</span> Terreno Antigo</p>
+                </a>
+                <a href="../ladoB/C3B.html">
+                    <p><span>3.</span> Resort Celestial</p>
+                </a>
+                <a href="../ladoB/C4B.html">
+                    <p><span>4.</span> Cordilheira Dourada</p>
+                </a>
+                <a href="../ladoB/C5B.html">
+                    <p><span>5.</span> Templo do Espelho</p>
+                </a>
+                <a href="../ladoB/C6B.html">
+                    <p><span>6.</span> Reflexão</p>
+                </a>
+                <a href="../ladoB/C7B.html">
+                    <p><span>7.</span> O Cume</p>
+                </a>
+                <a href="../ladoB/C8B.html">
+                    <p class="end"><span>8.</span> Núcleo</p>
+                </a>
+            </div>
+
+            <p class="l2" id="C">
+                <a href="../../fases.html/sectionCtitle">Lado C</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistC">
+                <a href="../ladoC/C1C.html">
+                    <p class="title"><span>1.</span> Cidade Abandonada</p>
+                </a>
+                <a href="../ladoC/C2C.html">
+                    <p><span>2.</span> Terreno Antigo</p>
+                </a>
+                <a href="../ladoC/C3C.html">
+                    <p><span>3.</span> Resort Celestial</p>
+                </a>
+                <a href="../ladoC/C4C.html">
+                    <p><span>4.</span> Cordilheira Dourada</p>
+                </a>
+                <a href="../ladoC/C5C.html">
+                    <p><span>5.</span> Templo do Espelho</p>
+                </a>
+                <a href="../ladoC/C6C.html">
+                    <p><span>6.</span> Reflexão</p>
+                </a>
+                <a href="../ladoC/C7C.html">
+                    <p><span>7.</span> O Cume</p>
+                </a>
+                <a href="../ladoC/C8C.html">
+                    <p class="end"><span>8.</span> Núcleo</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="part">
+            <p class="l1">O jogo:
+            <p class="l2">
+                <a href="../..//personagens.html">Personagens</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../../historia.html">História</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../../coletaveis.html">Coletáveis</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../../mecanicas.html">Mecânicas</a>
+            </p>
+        </div>
+
+        <div class="part">
+            <p class="l1">Outros:</p>
+            <p class="l2">
+                <a href="../../../index.html#sectionBtitle">Os criadores</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../../speedruns.html">Speedruns</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../../pico8.html">Pico-8</a>
+            </p>
+
+            <i onclick="lchange()">
+                <img src="../../../assets/lchange.svg" alt="LANGUAGE CHANGE">
+            </i>
+        </div>
+    </div>
+
+    <div id="lchange">
+        <i onclick="lchange()">
+            <img src="../../../assets/lchange.svg" alt="LANGUAGE CHANGE">
+        </i>
+    </div>
+
+    <main>
+        <h1>Capítulo 8: Núcleo</h1>
+
+        <div class="texto">
+            <p>
+                Núcleo é o oitavo capítulo de Celeste. Inclui novas <a href="../../mecanicas.html">mecânicas</a>, sendo
+                a principal delas a incapacidade de recuperar o dash ao tocar o chão.
+            </p>
+
+            <p>- <a href="../ladoB/82B.html">Veja: Capítulo 8: lado B</a></p>
+
+            <p>- <a href="../ladoC/C8C.html">Veja: Capítulo 8: lado C</a></p>
+        </div>
+
+        <h2 class="sectiontitle" id="sectionAtitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron1" onclick="chevron1()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron2" onclick="chevron2()"></i>
+            &nbsp;
+            Mecânicas
+        </h2>
+        <div id="sectionA">
+            <div class="texto">
+                <p>Terreno Antigo introduz 4 novas mecânicas:</p>
+                <p>•<a href=""> Blocos espaciais</a>,</p>
+                <p>•<a href=""> Binóculos de Caveira</a>,</p>
+                <p>•<a href=""> Escudos</a>,</p>
+                <p>•<a href=""> Plataformas ativadas por escudo</a>,</p>
+            </div>
+        </div>
+
+        <h2 class="sectiontitle" id="sectionBtitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron3" onclick="chevron3()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron4" onclick="chevron4()"></i>
+            &nbsp;
+            Plot
+        </h2>
+        <div id="sectionB">
+            <div class="texto">
+                <p>Terreno Antigo introduz 1 nova personagem:</p>
+                <div class="txtandimg">
+                    <p>•<a href="../../mecanicas.html"> Badeline</a>.</p>
+                    <img src="../../../imgs/badeline.webp" alt="Badeline">
+                </div>
+
+
+                <p>O prólogo começa com Madeline mentalmente se encorajando a seguir com sua jornada. Seguindo, Madeline
+                    encontra um pássaro que ensina a ela como escalar. Após isso, Madeline encontra um mulher idosa com
+                    quem pede direções. A idosa debocha de Madeline e avisa sobre os perigos da montanha, mas Madeline a
+                    julga como lunática e continua com seu caminho. Logo em seguida, Madeline passsa por uma ponte que
+                    colapsa enquanto ela a atravessa, fazendo Madeline começar a cair. Porém, o pássaro ensina Madeline
+                    sobre o dash, salvando-a. Madeline chega no chão e se encoraja novamente, assim terminando a fase.
+                </p>
+            </div>
+        </div>
+
+        <h2 class="sectiontitle" id="sectionCtitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron5" onclick="chevron5()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron6" onclick="chevron6()"></i>
+            &nbsp;
+            Diálogos
+        </h2>
+        <div id="sectionC">
+            <div class="texto">
+                <p>Vovó: Oi, menina!</p>
+                <p>Vovó: Que bom ver você de novo.</p>
+                <p>Vovó: Aqui está a caverna que falei pra você no telefone.</p>
+                <p>Siga-me.</p>
+                <br>
+                <p>Madeline: Que lugar é esse?</p>
+                <p>Vovó: Esta passagem leva ao centro da Montanha.</p>
+                <p>Vovó: Você disse que queria voltar e explorar mais profundamente...</p>
+                <p>Vovó (rindo): Difícil ser mais profundo que isso!</p>
+                <p>Vovó: Mas tenha cuidado, bem.</p>
+                <p>Vovó: Quando você chega assim tão perto do coração da Montanha, o poder dela começa a te afetar de
+                    forma diferente.</p>
+                <p>Madeline: É, eu já estou percebendo</p>
+                <p>Vovó: Boa sorte lá dentro.</p>
+                <br>
+                <p>Vovó: Onde está aquela outra Parte de Você?</p>
+                <p>Madeline: Não sei... Eu esperava que ela já tivesse aparecido.</p>
+                <p>Madeline: Talvez eu tenha mudado e ela não seja mais Parte de Mim.</p>
+                <p>Vovo: Ou talvez vocês tenha crescido juntas.</p>
+                <p>Vovó: Talvez não seja fácil para a Montanha separar vocês agora.</p>
+                <p>Vovó: Eu aposto que ela ainda está com você, de alguma forma.</p>
+                <p>Madeline: Gosto mais dessa teoria.</p>
+                <p>Madeline: Mas eu ainda queria poder falar com ela.</p>
+                <br>
+                <p>Vovó: Você ainda fala com o Theo?</p>
+                <p>Madeline: Sim, ele passou o verão em Vancouver.</p>
+                <p>Madeline: A gente aproveitou bastante o tempo junto.</p>
+                <p>Vovó: O que ele anda fazendo?</p>
+                <p>Madeline: Ele voltou a morar com a família na Califórnia.</p>
+                <p>Madeline: Disse que quer estar por perto enquanto a irmã termina a faculdade de direito.</p>
+                <p>Madeline: Parece bem intenso, mas ele quer estar lá pra apoiar ela.</p>
+                <p>Vovó: Ele parece ser um rapaz muito bom.</p>
+                <br>
+                <p>Madeline: Já faz tempo. Como a senhora está?</p>
+                <p>Vovó: Ah, a mesma velha história.</p>
+                <p>Vovó (rindo): E no meu caso, bota velha nisso.</p>
+                <p>Vovó: Sei que não sou mais nenhuma mocinha.</p>
+                <p>Vovó: Tem dias que só manter os olhos abertos já me deixa exausta.</p>
+                <p>Vovó: Mas a Montanha me mantém ligada.</p>
+                <p>Vovó: Não vou dessa pra melhor tão cedo.</p>
+                <p>Madeline: Eu não esperaria menos da senhora.</p>
+                <p>Madeline: Se cuida.</p>
+                <br>
+                <p>Na tela: ...é isso?</p>
+                <p>Na tela: É isso que está no centro de tudo?</p>
+                <p>Na tela: É tão vazio... e vasto...</p>
+                <p>Na tela: Ainda assim sinto uma nostalgia de certa forma.</p>
+                <p>Na tela: E paz.</p>
+            </div>
+        </div>
+
+        <h2 class="sectiontitle" id="sectionDtitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron7" onclick="chevron7()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron8" onclick="chevron8()"></i>
+            &nbsp;
+            Coletáveis
+        </h2>
+        <div id="sectionD">
+            <div class="texto">
+                <p>Coração de cristal:</p>
+                <div class="txtandimg">
+                    <p class="p2">O coração de cristal do capítulo 1 é adquirido no segundo subcapítulo após acessar
+                        uma passagem
+                        secreta. Na sala do coração de cristal, existe um computador que pisca luzes coloridas em uma
+                        ordem e alguns pássaros das mesmas cores do computador que avançam para diferentes direções.
+                        Para conseguir o coração de cristal, é necessário usar o dash na direção dos pássaros na ordem
+                        mostrada pelo computador. A ordem correta é:
+                        <br><br>
+                        • Cima (Branco),
+                        <br>
+                        • Esquerda (Roxo),
+                        <br>
+                        • Baixo-direita (Azul),
+                        <br>
+                        • Cima-direita (Vermelho),
+                        <br>
+                        • Esquerda (Roxo),
+                        <br>
+                        • Cima-esquerda (Amarelo).
+                        <br><br>
+                        - <a>Veja: como encontrar...</a>
+                    </p>
+
+                    <img src="../../../imgs/CrystalHeart1A.webp" alt="CORAÇÃO DE CRISTAL">
+                </div>
+
+                <p>Fita cassete:</p>
+                <div class="txtandimg">
+                    <p class="p2">
+                        A fita cassete do capítulo 1 é adquirida no terceiro subcapítulo após acessar uma passagem
+                        secreta. Na sala da fita cassete, são encontradas <a>plataformas rítmicas</a>. Após alcançar o
+                        objetivo, uma bolha transportara o jogador de volta para o começo da sala.
+                        <br><br>
+                        - <a>Veja: como encontrar...</a>
+                    </p>
+
+                    <img src="../../../imgs/Cassette1A.webp" alt="FITA CASSETE">
+                </div>
+
+                <p>Morangos:</p>
+                <div>
+                    <div class="item">
+                        <p class="p2">
+                            • Morango dourado:
+                        <p class="p3">
+                            Conseguido após concluir a fase enquanto segura o morango dourado. Só pode ser coseguido
+                            após
+                            concluir o lado B do capítulo 8.
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <p class="p2">
+                            • Morango vermelho:
+                        <p class="p3">
+                            Morango 1: Morango vermelho:
+                        <p class="p4">- <a>Veja: como encontrar...</a>
+                        </p>
+
+                        <p class="p3">
+                            Morango 2: Morango vermelho:
+                        <p class="p4">
+                            - <a>Veja: como encontrar...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="sectiontitle" id="sectionEtitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron9" onclick="chevron9()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron10" onclick="chevron10()"></i>
+            &nbsp;
+            Subcapítulos
+        </h2>
+        <div id="sectionE">
+            <div class="texto">
+                <p>Cidade Abandonada possui 3 subcapítulos:</p>
+                <div class="imgdesc">
+                    <p>Início</p>
+                    <img src="../../../imgs/C2start.webp" alt="START CH2">
+                    <p>Intervenção</p>
+                    <img src="../../../imgs/C2intervention.webp" alt="INTERVENTION CH2">
+                    <p>Desperta</p>
+                    <img src="../../../imgs/C2awake.webp" alt="AWAKE CH2">
+                </div>
+            </div>
+        </div>
+
+        <div class="videoguide">
+            <iframe class="video" width="560" height="315"
+                src="https://www.youtube.com/embed/SVF3d1RDm7k?si=dfH2KbSsuKbYwxxP" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <script src="../../../menu.js"></script>
+
+    <script src="../../../lchange.js"></script>
+
+    <script src="../../../chevron.js"></script>
+
+    <script src="../../../script.js"></script>
+</body>
+
+</html>

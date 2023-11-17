@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celeste - Chapter 5: Mirror Temple - C-Side</title>
+
+    <link rel="stylesheet" href="../../../style.css">
+
+    <link rel="stylesheet" href="../../fases.css">
+
+    <script src="https://kit.fontawesome.com/32132f73ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-image: url(../../../imgs/mirrortemple.webp);">
+    <header class="header">
+        <a href="../../../index_en.html"><img src="../../../assets/logo.webp" alt="LOGO"></a>
+        <nav>
+            <a href="../../fases_en.html">
+                <p>chapters</p>
+            </a>
+            <a href="../../personagens_en.html">
+                <p>characters</p>
+            </a>
+            <a href="../../historia_en.html">
+                <p>story</p>
+            </a>
+            <a href="../../coletaveis_en.html">
+                <p>collectibles</p>
+            </a>
+        </nav>
+        <img id="menubtn" onclick="menuhide()" src="../../../assets/pico8.png" alt="PICO8">
+    </header>
+
+    <div id="menu" class="menuhidden" style="z-index: 100;">
+        <div class="part">
+            <p class="l1"><a href="../../fases_en.html">Chapters:</a></p>
+
+            <p class="l2">
+                <a href="../prologo_en.html">Prologue</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../epilogo_en.html">Epilogue</a>
+            </p>
+
+            <br>
+
+            <p class="l2" id="A">
+                <a href="../../fases_en.html#sectionAtitle">A Side</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistA">
+                <a href="../ladoA/C1A_en.html">
+                    <p class="title"><span>1.</span> Forsaken City</p>
+                </a>
+                <a href="../ladoA/C2A_en.html">
+                    <p><span>2.</span> Old Site</p>
+                </a>
+                <a href="../ladoA/C3A_en.html">
+                    <p><span>3.</span> Celestial Resort</p>
+                </a>
+                <a href="../ladoA/C4A_en.html">
+                    <p><span>4.</span> Golden Ridge</p>
+                </a>
+                <a href="../ladoA/C5A_en.html">
+                    <p><span>5.</span> Mirror Temple</p>
+                </a>
+                <a href="../ladoA/C6A_en.html">
+                    <p><span>6.</span> Reflection</p>
+                </a>
+                <a href="../ladoA/C7A_en.html">
+                    <p><span>7.</span> The Summit</p>
+                </a>
+                <a href="../ladoA/C8A_en.html">
+                    <p><span>8.</span> Core</p>
+                </a>
+                <a href="../ladoA/C9A_en.html">
+                    <p class="end"><span>9.</span> Farewell</p>
+                </a>
+            </div>
+
+            <p class="l2" id="B">
+                <a href="../../fases_en.html#sectionBtitle">B Side</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistB">
+                <a href="../C1B_en.html">
+                    <p class="title"><span>1.</span> Forsaken City</p>
+                </a>
+                <a href="../ladoC/C2B_en.html">
+                    <p><span>2.</span> Old Site</p>
+                </a>
+                <a href="../ladoC/C3B_en.html">
+                    <p><span>3.</span> Celestial Resort</p>
+                </a>
+                <a href="../ladoC/C4B_en.html">
+                    <p><span>4.</span> Golden Ridge</p>
+                </a>
+                <a href="../ladoC/C5B_en.html">
+                    <p><span>5.</span> Mirror Temple</p>
+                </a>
+                <a href="../C6B_en.html">
+                    <p><span>6.</span> Reflection</p>
+                </a>
+                <a href="../C7B_en.html">
+                    <p><span>7.</span> The Summit</p>
+                </a>
+                <a href="../C8B_en.html">
+                    <p class="end"><span>8.</span> Core</p>
+                </a>
+            </div>
+
+            <p class="l2" id="C">
+                <a href="../../fases_en.html#sectionCtitle">C Side</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistC">
+                <a href="./C1C_en.html">
+                    <p class="title"><span>1.</span> Forsaken City</p>
+                </a>
+                <a href="./C2C_en.html">
+                    <p><span>2.</span> Old Site</p>
+                </a>
+                <a href="./C3C_en.html">
+                    <p><span>3.</span> Celestial Resort</p>
+                </a>
+                <a href="./C4C_en.html">
+                    <p><span>4.</span> Golden Ridge</p>
+                </a>
+                <a href="./C5C_en.html">
+                    <p><span>5.</span> Mirror Temple</p>
+                </a>
+                <a href="./C6C_en.html">
+                    <p><span>6.</span> Reflection</p>
+                </a>
+                <a href="./C7C_en.html">
+                    <p><span>7.</span> The Summit</p>
+                </a>
+                <a href="./C8C_en.html">
+                    <p class="end"><span>8.</span> Core</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="part">
+            <p class="l1">The game:
+            <p class="l2">
+                <a href="../../personagens_en.html">Characters</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../../historia_en.html">Story</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../../coletaveis_en.html">Collectibles</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../../mecanicas_en.html">Mechanics</a>
+            </p>
+        </div>
+
+        <div class="part">
+            <p class="l1">Extra:</p>
+            <p class="l2">
+                <a href="../../../index_en.html#sectionBtitle">The developers</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../../speedruns_en.html">Speedruns</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="../../pico8_en.html">Pico-8</a>
+            </p>
+
+            <i onclick="lchange()">
+                <img src="../../../assets/lchange.svg" alt="LANGUAGE CHANGE">
+            </i>
+        </div>
+
+        <div id="lchange">
+            <i onclick="lchange()">
+                <img src="../../../assets/lchange.svg" alt="LANGUAGE CHANGE">
+            </i>
+        </div>
+    </div>
+
+    <main>
+        <h1>Chapter 5: Mirror Temple - C-Side</h1>
+
+        <div class="texto">
+            <div class="txtandimg">
+                <div>
+                    <p>Mirror Temple is the fifth chapter of Celeste. B side features a significant increase in difficulty. To
+                        unlock, the player must complete the A-Side of the respective chapter.
+
+                    <p>- <a href="../ladoA/C5A_en.html">See also: Chapter 5: A-Side</a></p>
+
+                    <p>- <a href="../ladoB/C5B_en.html">See also: Chapter 5: B-Side</a></p>
+                </div>
+
+                <img src="../../../imgs/C5C.webp" alt="CH 5 C">
+            </div>
+        </div>
+
+        <h2 class="sectiontitle" id="sectionAtitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron1" onclick="chevron1()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron2" onclick="chevron2()"></i>
+            &nbsp;
+            Collectibles
+        </h2>
+        <div id="sectionA">
+            <div class="texto">
+                <p>Crystal Heart:</p>
+                <div class="txtandimg">
+                    <p class="p2">
+                        The crystal heart of chapter 5 - C-Side is acquired after completing the chapter.
+                    </p>
+
+                    <img src="../../../imgs/CrystalHeart5C.webp" alt="CORAÇÃO DE CRISTAL">
+                </div>
+
+                <p>Strawberries:</p>
+                <div>
+                    <div class="item">
+                        <p class="p2">
+                            • Golden Strawberry:
+                        <p class="p3">
+                            Obtained after completing the chapter while holding the golden strawberry. It can only be
+                            achieved
+                            after
+                            completing chapter 8 - B side.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="videoguide">
+            <iframe class="video" width="560" height="315"
+                src="https://www.youtube.com/embed/SVF3d1RDm7k?si=dfH2KbSsuKbYwxxP" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <script src="../../../menu.js"></script>
+
+    <script src="../../../lchange.js"></script>
+
+    <script src="../../../chevron.js"></script>
+
+    <script src="../../../script.js"></script>
+</body>
+
+</html>

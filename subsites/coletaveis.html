@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celeste - Fases</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="fases.css">
+
+    <script src="https://kit.fontawesome.com/32132f73ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html"><img src="../assets/madeline.webp" alt="LOGO"></a>
+        <nav>
+            <a href="../subsites/fases.html">
+                <p>fases</p>
+            </a>
+            <a href="../subsites/personagens.html">
+                <p>personagens</p>
+            </a>
+            <a href="../subsites/historia.html">
+                <p>história</p>
+            </a>
+            <a href="../subsites/speedruns.html">
+                <p>speedruns</p>
+            </a>
+            <a href="../subsites/morangos.html">
+                <p>morangos</p>
+            </a>
+        </nav>
+    </header>
+
+    <div id="lchange">
+        <i onclick="lchange()">
+            <img src="../assets/lchange.svg" alt="LANGUAGE CHANGE">
+        </i>
+    </div>
+
+    <main>
+        <h1>FASES DO CELESTE</h1>
+
+
+        <div class="texto">
+            <p>Celest e apresenta um diversos coletáveis, que estão distribuídos entre as fases. Eles podem servir como
+                um propósito para o jogador, além de proporcionar um desafio extra.</p>
+        </div>
+
+        <h2 id="sectionAtitle" class="sectiontitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron1" onclick="chevron1()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron2" onclick="chevron2()"></i>
+            &nbsp;
+            Morangos
+        </h2>
+        <div id="sectionA">
+        </div>
+
+        <h2 id="sectionBtitle" class="sectiontitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron3" onclick="chevron3()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron4" onclick="chevron4()"></i>
+            &nbsp;
+            coracao
+        </h2>
+        <div id="sectionB">
+        </div>
+
+        <h2 id="secitonCtitle" class="sectiontitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron5" onclick="chevron5()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron6" onclick="chevron6()"></i>
+            &nbsp;
+            fcassete
+        </h2>
+        <div id="sectionC">
+        </div>
+    </main>
+
+    <script src="../lchange.js"></script>
+
+    <script src="../chevron.js"></script>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>

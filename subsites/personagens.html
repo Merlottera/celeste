@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celeste - Personagens</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="./fases.css">
+
+    <script src="https://kit.fontawesome.com/32132f73ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../../index.html"><img src="../../assets/madeline.webp" alt="LOGO"></a>
+        <nav>
+            <a href="../../subsites/fases.html">
+                <p>fases</p>
+            </a>
+            <a href="../../subsites/personagens.html">
+                <p>personagens</p>
+            </a>
+            <a href="../../subsites/historia.html">
+                <p>história</p>
+            </a>
+            <a href="../../subsites/speedruns.html">
+                <p>speedruns</p>
+            </a>
+            <a href="../../subsites/morangos.html">
+                <p>morangos</p>
+            </a>
+        </nav>
+    </header>
+
+    <div id="lchange">
+        <i onclick="lchange()">
+            <img src="../../assets/lchange.svg" alt="LANGUAGE CHANGE">
+        </i>
+    </div>
+
+    <main>
+        <h1>Prólogo</h1>
+
+        <div class="texto">
+            <p>O prólogo é a primeira fase de celeste. É a fase mais fácil do jogo.</p>
+        </div>
+
+        <h2 class="sectiontitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron1" onclick="chevron1()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron2" onclick="chevron2()"></i>
+            &nbsp;
+            Mecânicas
+        </h2>
+        <div id="sectionA">
+            <div class="texto">
+                <p>O prólogo ensina o jogador as <a href="../mecanicas.html">mecânicas</a> mais básicas do jogo,
+                    introduzindo:</p>
+                <p>•<a href=""> Plataformas que caem</a>,</p>
+                <p>•<a href=""> Escalada</a>,</p>
+                <p>•<a href=""> Ponte quebrada</a>,</p>
+                <p>•<a href=""> Dash</a>.</p>
+            </div>
+        </div>
+
+        <h2 class="sectiontitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron3" onclick="chevron3()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron4" onclick="chevron4()"></i>
+            &nbsp;
+            Plot
+        </h2>
+        <div id="sectionB">
+            <div class="texto">
+                <p>Prólogo introduz 3 novas personagens:</p>
+                <p>•<a href=""> Madeline</a>,</p>
+                <p>•<a href=""> Vovó</a>,</p>
+                <p>•<a href=""> Pássaro</a>.</p>
+
+                <p>O prólogo começa com Madeline mentalmente se encorajando a seguir com sua jornada. Seguindo, Madeline
+                    encontra um pássaro que ensina a ela como escalar. Após isso, Madeline encontra um mulher idosa com
+                    quem pede direções. A idosa debocha de Madeline e avisa sobre os perigos da montanha, mas Madeline a
+                    julga como lunática e continua com seu caminho. Logo em seguida, Madeline passsa por uma ponte que
+                    colapsa enquanto ela a atravessa, fazendo Madeline começar a cair. Porém, o pássaro ensina Madeline
+                    sobre o dash, salvando-a. Madeline chega no chão e se encoraja novamente, assim terminando a fase.
+                </p>
+            </div>
+        </div>
+
+        <h2 class="sectiontitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron5" onclick="chevron5()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron6" onclick="chevron6()"></i>
+            &nbsp;
+            Diálogos
+        </h2>
+        <div id="sectionC">
+            <div class="texto">
+                <p>Na tela: É agora, Madeline.</p>
+                <p>Na tela: Respira.</p>
+                <p>Na tela: Por que está tão nervosa?</p>
+                <br>
+                <p>Madeline: Com licença, senhora.</p>
+                <p>Madeline: A placa lá fora está quebrada... Essa é a trilha da Montanha?</p>
+                <p>Vovó: Você está quase lá, bem. É só atravessar a ponte.</p>
+                <p>Madeline: Aliás, a senhora precisa ligar pra alguém pra ver a entrada. A passagem desmonorou e eu
+                    quase morri</p>
+                <p>Vovó (rindo): Se minha "entrada" quase te engoliu, a Montanha pode ser demais pra você.</p>
+                <p>Madeline: ...</p>
+                <p>Madeline: Bom, se uma velha coroca que nem você consegue sobreviver aqui, acho que vou ficar bem.</p>
+                <p>Vovó: À vontade.</p>
+                <p>Vovó: Mas fique você sabendo, a Montanha Celste é um lugar estranho.</p>
+                <p>Vovó: Talvez você veja coisas.</p>
+                <p>Vovó: Coisas que não está pronta para ver.</p>
+                <p>Madeline: Você devia se tratar, dona.</p>
+                <br>
+                <p>Na tela: Você consegue.</p>
+            </div>
+        </div>
+
+        <h2 class="sectiontitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron7" onclick="chevron7()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron8" onclick="chevron8()"></i>
+            &nbsp;
+            Cheat Mode
+        </h2>
+        <div id="sectionD">
+            <div class="texto">
+                <div class="txtandimg">
+                    <p>O Cheat Mode pode ser acessado do prólogo. Para desbloquear o Cheat Mode, é necessário, da
+                        sala inicial, seguir o caminho da esquerda. Dentro dessa sala, somente um carro é encontrado.
+                        Para ativar o Cheat Mode, é necessário fazer uma sequência de de comandos. No pc: Esquerda -
+                        Direita -
+                        Tab - Z - Cima - Cima - Baixo - Esquerda - Z - C. No controle: Left - Direita - LT - RT - Cima -
+                        Cima - Baixo -
+                        Esquerda - RB - A. Após isso, o jogador voltará para a página inicial, com o acesso de todos os
+                        capítulos e o perfil do jogo ganhará um selo "Cheat Mode".</p>
+                    <img src="../../imgs/cheatmode.webp" alt="IMG CHEAT MODE ROOM">
+                </div>
+            </div>
+        </div>
+
+        <div class="videoguide">
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/xE5v4CI8UmA?si=CsDgouykJdqO-_jl"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <script src="../../chevron.js"></script>
+
+    <script src="../../lchange.js"></script>
+
+    <script src="../../script.js"></script>
+</body>
+
+</html>
