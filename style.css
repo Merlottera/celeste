@@ -94,7 +94,7 @@ div#menu {
 }
 
 .menuhidden {
-    margin-top: -120vh;
+    margin-top: -200vh;
 }
 
 div#menu>.part+.part {
@@ -180,15 +180,15 @@ div#menu>.part+.part {
 }
 
 .sublistA:hover {
-    display: block
+    display: block;
 }
 
 .sublistB:hover {
-    display: block
+    display: block;
 }
 
 .sublistC:hover {
-    display: block
+    display: block;
 }
 
 .sublist {
@@ -371,11 +371,14 @@ a:not([href]) {
     margin-bottom: 50px;
 }
 
+.txtandimg+.txtandimg {
+    margin-top: 100px;
+}
+
 .txtandimg p {
     flex: 50%;
     margin-right: 70px;
 }
-
 
 .txtandimg img {
     flex: 50%;
@@ -401,7 +404,6 @@ a:not([href]) {
 
 .imgdesc img {
     width: 500px;
-    border: solid black 1px;
     margin-bottom: 60px;
 }
 
@@ -416,11 +418,7 @@ a:not([href]) {
 
 @media only screen and (max-width: 1200px) {
     header {
-        display: block;
-    }
-
-    img#menubtn {
-        float: right;
+        justify-content: space-between;
     }
 
     nav {
@@ -434,6 +432,18 @@ a:not([href]) {
 
     .part i img {
         width: 50px;
+    }
+
+    .part p.l2#A:hover+.sublistA {
+        display: none;
+    }
+    
+    .part p.l2#B:hover+.sublistB {
+        display: none;
+    }
+    
+    .part p.l2#C:hover+.sublistC {
+        display: none;
     }
 
     div#lchange {

@@ -97,3 +97,43 @@ function chevron10() {
     chevronclosed.classList.toggle('chevronhidden')
     tabela.classList.toggle('sectionhidden')
 }
+
+function chevron11() {
+    let chevronopen = document.getElementById('chevron11')
+    let chevronclosed = document.getElementById('chevron12')
+    let tabela = document.getElementById('sectionF')
+
+    chevronopen.classList.toggle('chevronhidden')
+    chevronclosed.classList.toggle('chevronhidden')
+    tabela.classList.toggle('sectionhidden')
+}
+
+function chevron12() {
+    let chevronopen = document.getElementById('chevron11')
+    let chevronclosed = document.getElementById('chevron12')
+    let tabela = document.getElementById('sectionF')
+
+    chevronopen.classList.toggle('chevronhidden')
+    chevronclosed.classList.toggle('chevronhidden')
+    tabela.classList.toggle('sectionhidden')
+}
+
+function chevron13() {
+    let chevronopen = document.getElementById('chevron13')
+    let chevronclosed = document.getElementById('chevron14')
+    let tabela = document.getElementById('sectionG')
+
+    chevronopen.classList.toggle('chevronhidden')
+    chevronclosed.classList.toggle('chevronhidden')
+    tabela.classList.toggle('sectionhidden')
+}
+
+function chevron14() {
+    let chevronopen = document.getElementById('chevron13')
+    let chevronclosed = document.getElementById('chevron14')
+    let tabela = document.getElementById('sectionG')
+
+    chevronopen.classList.toggle('chevronhidden')
+    chevronclosed.classList.toggle('chevronhidden')
+    tabela.classList.toggle('sectionhidden')
+}
