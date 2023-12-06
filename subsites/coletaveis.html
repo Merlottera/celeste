@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celeste - Fases</title>
+    <title>Celeste - Coletáveis</title>
 
     <link rel="stylesheet" href="../style.css">
 
@@ -15,25 +15,182 @@
 
 <body>
     <header class="header">
-        <a href="../index.html"><img src="../assets/madeline.webp" alt="LOGO"></a>
+        <a href="../index.html"><img src="../assets/logo.webp" alt="LOGO"></a>
         <nav>
-            <a href="../subsites/fases.html">
+            <a href="./fases.html">
                 <p>fases</p>
             </a>
-            <a href="../subsites/personagens.html">
+            <a href="./personagens.html">
                 <p>personagens</p>
             </a>
-            <a href="../subsites/historia.html">
+            <a href="./historia.html">
                 <p>história</p>
             </a>
-            <a href="../subsites/speedruns.html">
-                <p>speedruns</p>
-            </a>
-            <a href="../subsites/morangos.html">
-                <p>morangos</p>
+            <a href="./coletaveis.html">
+                <p>coletáveis</p>
             </a>
         </nav>
+        <img id="menubtn" onclick="menuhide()" src="../assets/pico8.png" alt="PICO8">
     </header>
+
+    <div id="menu" class="menuhidden" style="z-index: 100;">
+        <div class="part">
+            <p class="l1"><a href="./fases.html">Fases:</a></p>
+
+            <p class="l2">
+                <a href="./fases/prologo.html">Prólogo</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="./fases/epilogo.html">Epílogo</a>
+            </p>
+
+            <br>
+
+            <p class="l2" id="A">
+                <a href="./fases.html#sectionAtitle">Lado A</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistA">
+                <a href="./fases/ladoA/C1A.html">
+                    <p class="title"><span>1.</span> Cidade Abandonada</p>
+                </a>
+                <a href="./fases/ladoA/C2A.html">
+                    <p><span>2.</span> Terreno Antigo</p>
+                </a>
+                <a href="./fases/ladoA/C3A.html">
+                    <p><span>3.</span> Resort Celestial</p>
+                </a>
+                <a href="./fases/ladoA/C4A.html">
+                    <p><span>4.</span> Cordilheira Dourada</p>
+                </a>
+                <a href="./fases/ladoA/C5A.html">
+                    <p><span>5.</span> Templo do Espelho</p>
+                </a>
+                <a href="./fases/ladoA/C6A.html">
+                    <p><span>6.</span> Reflexão</p>
+                </a>
+                <a href="./fases/ladoA/C7A.html">
+                    <p><span>7.</span> O Cume</p>
+                </a>
+                <a href="./fases/ladoA/C8A.html">
+                    <p><span>8.</span> Núcleo</p>
+                </a>
+                <a href="./fases/ladoA/C9A.html">
+                    <p class="end"><span>9.</span> Adeus</p>
+                </a>
+            </div>
+
+            <p class="l2" id="B">
+                <a href="./fases.html#sectionBtitle">Lado B</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistB">
+                <a href="./fases/ladoB/C1B.html">
+                    <p class="title"><span>1.</span> Cidade Abandonada</p>
+                </a>
+                <a href="./fases/ladoB/C2B.html">
+                    <p><span>2.</span> Terreno Antigo</p>
+                </a>
+                <a href="./fases/ladoB/C3B.html">
+                    <p><span>3.</span> Resort Celestial</p>
+                </a>
+                <a href="./fases/ladoB/C4B.html">
+                    <p><span>4.</span> Cordilheira Dourada</p>
+                </a>
+                <a href="./fases/ladoB/C5B.html">
+                    <p><span>5.</span> Templo do Espelho</p>
+                </a>
+                <a href="./fases/ladoB/C6B.html">
+                    <p><span>6.</span> Reflexão</p>
+                </a>
+                <a href="./fases/ladoB/C7B.html">
+                    <p><span>7.</span> O Cume</p>
+                </a>
+                <a href="./fases/ladoB/C8B.html">
+                    <p class="end"><span>8.</span> Núcleo</p>
+                </a>
+            </div>
+
+            <p class="l2" id="C">
+                <a href="./fases.html/sectionCtitle">Lado C</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistC">
+                <a href="./fases/ladoC/C1C.html">
+                    <p class="title"><span>1.</span> Cidade Abandonada</p>
+                </a>
+                <a href="./fases/ladoC/C2C.html">
+                    <p><span>2.</span> Terreno Antigo</p>
+                </a>
+                <a href="./fases/ladoC/C3C.html">
+                    <p><span>3.</span> Resort Celestial</p>
+                </a>
+                <a href="./fases/ladoC/C4C.html">
+                    <p><span>4.</span> Cordilheira Dourada</p>
+                </a>
+                <a href="./fases/ladoC/C5C.html">
+                    <p><span>5.</span> Templo do Espelho</p>
+                </a>
+                <a href="./fases/ladoC/C6C.html">
+                    <p><span>6.</span> Reflexão</p>
+                </a>
+                <a href="./fases/ladoC/C7C.html">
+                    <p><span>7.</span> O Cume</p>
+                </a>
+                <a href="./fases/ladoC/C8C.html">
+                    <p class="end"><span>8.</span> Núcleo</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="part">
+            <p class="l1">O jogo:
+            <p class="l2">
+                <a href="./personagens.html">Personagens</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="./historia.html">História</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="./coletaveis.html">Coletáveis</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="./mecanicas.html">Mecânicas</a>
+            </p>
+        </div>
+
+        <div class="part">
+            <p class="l1">Outros:</p>
+            <p class="l2">
+                <a href="../index.html#sectionBtitle">Os criadores</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="https://www.speedrun.com/celeste">Speedruns</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="./pico8.html">Pico-8</a>
+            </p>
+
+            <i onclick="lchange()">
+                <img src="../assets/lchange.svg" alt="LANGUAGE CHANGE">
+            </i>
+        </div>
+    </div>
 
     <div id="lchange">
         <i onclick="lchange()">
@@ -42,12 +199,22 @@
     </div>
 
     <main>
-        <h1>FASES DO CELESTE</h1>
+        <h1>Coletáveis</h1>
 
 
         <div class="texto">
-            <p>Celest e apresenta um diversos coletáveis, que estão distribuídos entre as fases. Eles podem servir como
+            <p>Celeste apresenta um diversos coletáveis, que estão distribuídos entre as fases. Eles podem servir como
                 um propósito para o jogador, além de proporcionar um desafio extra.</p>
+
+            <p>Para coletar um morango, o jogador precisa ficar em cima de uma plataforma estática (chão) por alguns
+                frames.</p>
+
+            <p>Ao coletar um morango, um indicador visual aparecerá na tela mostrando que 1000 pontos foram ganhos, isso
+                não possui nenhuma utilidade prática no jogo. Se vários morangos forem coletados em sequência, o
+                indicador visual da pontuação aumentará em 1000 pontos até 5000. Quando a pontuação chegar onde deveria
+                aparecer 6000, o indicador que aparecerá será "1UP".</p>
+
+            <p>O indicador visual ao coletar o Moon Berry é "WOW".</p>
         </div>
 
         <h2 id="sectionAtitle" class="sectiontitle">
@@ -57,26 +224,178 @@
             Morangos
         </h2>
         <div id="sectionA">
+            <div class="texto">
+                <p>
+                    Celeste possui um total de 202 morangos.
+                </p>
+
+                <p>
+                    Morangos não são necessários para concluir ou progredir no jogo, servindo somente como desafio
+                    extra.
+                </p>
+
+                <p>
+                    Dependendo da quantidade de morangos que o jogador possui, a torta do <a href="">epílogo</a> será
+                    diferente.
+                </p>
+
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Morango vermelho:
+                        <p class="p3">
+                            É o morango mais básico e encontrado em maior abundância no jogo. Aparecem em todos Lado A,
+                            com exceção do capítulo 6 e do capítulo 9.
+                        </p>
+                    </div>
+                    <img src="../imgs/redstrawberry.webp" alt="RED STRAWBERRY">
+                </div>
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Semente de morango:
+                        <p class="p3">
+                            Pequeno coletável que aparece sempre em vários. As sementes são distribuídas em uma única
+                            sala. Ao coletar, o jogador deve pegar as sementes restantes sem tocar o chão, caso
+                            contrário, as sementes voltarão aos seus respectivos locais. Quando todas sementes forem
+                            coletadas, uma animação será iniciada mostrando o aparecimento de um morango vermelho.
+                        </p>
+                    </div>
+                    <img src="../imgs/seedstrawberry.webp" alt="STRAWBERRY SEED">
+                </div>
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Morango com asas:
+                        <p class="p3">
+                            São morangos vermelhos especiais, que ao usar o dash na sala que está localizado, voará para
+                            o topo da tela até desaparecer. Para conseguir tentar coletá-lo de novo, basta sair e entrar
+                            da sala para recarregá-la.
+                        </p>
+                    </div>
+                    <img src="../imgs/wingedstrawberry.webp" alt="WINGED STRAWBERRY">
+                </div>
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Morango dourado:
+                        <p class="p3">
+                            Conseguido após concluir a fase enquanto segura o morango dourado. Só pode ser coseguido
+                            após
+                            concluir o lado B do capítulo 8. Ele é coletado ao chegar no final de capítulo A, ou ao
+                            coletar o coração de cristal do capítulo B ou C. Ao morrer carregando o morango dourado, o
+                            jogador voltará para o começo do capítulo.
+                        </p>
+                    </div>
+                    <img src="../imgs/goldenstrawberry.webp" alt="GOLDEN STRAWBERRY">
+                </div>
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Morango dourado com asas:
+                        <p class="p3">
+                            Morango exclusivo do <a href="./fases/ladoA/C1A.html">capítulo 1 lado A</a> . Conseguido
+                            após concluir o capítulo inteiro sem usar
+                            o dash. É localizado na última sala do capítulo. Antes de chegar na última sala, o morango
+                            só irá sumir caso o jogador passe por uma transição de tela após usar o dash. Sendo assim,
+                            caso o jogador acidentalmente use o dash, é necessário morrer antes de passar para outra
+                            sala.
+                        </p>
+                        <p class="p3">
+                            - <a>Veja: como encontrar...</a>
+                        </p>
+                    </div>
+                    <img src="../imgs/wingedgoldenstrawberry.webp" alt="WINGED GOLDEN STRAWBERRY">
+                </div>
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Moon Berry:
+                        <p class="p3">
+                            Morango exclusivo do <a href="./fases/ladoA/C9A.html">capítulo 9</a>. Para conseguir é
+                            necessário ter terminado o capítulo, então
+                            é preciso chegar novamente na sala final. Após
+                            desligar a energia da sala, o jogador precisará fazer o caminho inverso e seguir caminho até
+                            chegar no topo da sala. Após isso o jogador chegará em uma sala secreta onde terá que morrer
+                            nos cristais, fazendo-o aparecer no outro lado da sala. Então o jogador entrará em uma sala
+                            secreta final, que, perto do término, o Moon Berry estará localizado. Caso o jogador esteja
+                            com o morango dourado, morrer para os cristais não fará o jogador voltar para o início do
+                            capítulo.
+                        </p>
+                        <p class="p3">
+                            - <a>Veja: como encontrar...</a>
+                        </p>
+                    </div>
+                    <img src="../imgs/moonstrawberry.webp" alt="MOON STRAWBERRY">
+                </div>
+            </div>
         </div>
 
         <h2 id="sectionBtitle" class="sectiontitle">
             <i class="fa-solid fa-chevron-up chevron" id="chevron3" onclick="chevron3()"></i>
             <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron4" onclick="chevron4()"></i>
             &nbsp;
-            coracao
+            Corações de cristal
         </h2>
         <div id="sectionB">
+            <div class="texto">
+                <p>Celeste possui um total de 24 corações de cristal, isso excluindo o coração de cristal falso
+                    encontrado no <a href="./fases/ladoA/C9A.html">capítulo 9</a>.</p>
+
+                <p>Os corações do lado A envolvem a conclusão de algum tipo de puzzle, enquanto no lado B e lado C é
+                    necessário completar a fase somente.</p>
+
+
+                <div class="txtandimg">
+                    <p>• Lado A: Coração azul:</p>
+                    <img src="../imgs/acrystalheart.webp" alt="A-SIDE HEART">
+                </div>
+
+                <div class="txtandimg">
+                    <p>• Lado B: Coração vermelho:</p>
+                    <img src="../imgs/bcrystalheart.webp" alt="B-SIDE HEART">
+                </div>
+
+                <div class="txtandimg">
+                    <p>• Lado B: Coração amarelo:</p>
+                    <img src="../imgs/ccrystalheart.webp" alt="C-SIDE HEART">
+                </div>
+
+                <div class="txtandimg">
+                    <p>• Capítulo 9: Coração cinza:</p>
+                    <img src="../imgs/9crystalheart.webp" alt="CH 9 HEART">
+                </div>
+            </div>
         </div>
 
         <h2 id="secitonCtitle" class="sectiontitle">
             <i class="fa-solid fa-chevron-up chevron" id="chevron5" onclick="chevron5()"></i>
             <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron6" onclick="chevron6()"></i>
             &nbsp;
-            fcassete
+            Fita cassete
         </h2>
         <div id="sectionC">
+            <div class="texto">
+                <p>As fitas cassete estão presente em em todos lado A, exceto pelo capítulo 9.</p>
+
+                <p>A fita cassete dos capítulos sempre estará presente em uma sala secreta com diversas <a>plataformas de ritmo</a>.</p>
+
+                <p>Ao coletar uma fita cassete, o jogador será levado para o começo da sala (exceto no capítulo 8, que o jogador será levado para o final) através de uma bolha.</p>
+
+                <div class="imgdesc">
+                    <img src="../imgs/cassette.webp" alt="CASSETTE">
+                </div>
+            </div>
         </div>
     </main>
+
+    <script src="../menu.js"></script>
 
     <script src="../lchange.js"></script>
 

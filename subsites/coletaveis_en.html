@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celeste - Collectibles</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="fases.css">
+
+    <script src="https://kit.fontawesome.com/32132f73ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index_en.html"><img src="../assets/logo.webp" alt="LOGO"></a>
+        <nav>
+            <a href="./fases_en.html">
+                <p>chapters</p>
+            </a>
+            <a href="../personagens_en.html">
+                <p>characters</p>
+            </a>
+            <a href="./historia_en.html">
+                <p>story</p>
+            </a>
+            <a href="./coletaveis_en.html">
+                <p>collectibles</p>
+            </a>
+        </nav>
+        <img id="menubtn" onclick="menuhide()" src="../assets/pico8.png" alt="PICO8">
+    </header>
+
+    <div id="menu" class="menuhidden" style="z-index: 100;">
+        <div class="part">
+            <p class="l1"><a href="./fases_en.html">Chapters:</a></p>
+
+            <p class="l2">
+                <a href="./fases/prologo_en.html">Prologue</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="./fases/epilogo_en.html">Epilogue</a>
+            </p>
+
+            <br>
+
+            <p class="l2" id="A">
+                <a href="./fases_en.html#sectionAtitle">A-Side</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistA">
+                <a href="./fases/ladoA/C1A_en.html">
+                    <p class="title"><span>1.</span> Forsaken City</p>
+                </a>
+                <a href="./fases/ladoA/C2A_en.html">
+                    <p><span>2.</span> Old Site</p>
+                </a>
+                <a href="./fases/ladoA/C3A_en.html">
+                    <p><span>3.</span> Celestial Resort</p>
+                </a>
+                <a href="./fases/ladoA/C4A_en.html">
+                    <p><span>4.</span> Golden Ridge</p>
+                </a>
+                <a href="./fases/ladoA/C5A_en.html">
+                    <p><span>5.</span> Mirror Temple</p>
+                </a>
+                <a href="./fases/ladoA/C6A_en.html">
+                    <p><span>6.</span> Reflection</p>
+                </a>
+                <a href="./fases/ladoA/C7A_en.html">
+                    <p><span>7.</span> The Summit</p>
+                </a>
+                <a href="./fases/ladoA/C8A_en.html">
+                    <p><span>8.</span> Core</p>
+                </a>
+                <a href="./fases/ladoA/C9A_en.html">
+                    <p class="end"><span>9.</span> Farewell</p>
+                </a>
+            </div>
+
+            <p class="l2" id="B">
+                <a href="./fases_en.html#sectionBtitle">B-Side</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistB">
+                <a href="./fases/ladoB/C1B_en.html">
+                    <p class="title"><span>1.</span> Forsaken City</p>
+                </a>
+                <a href="./fases/ladoB/C2B_en.html">
+                    <p><span>2.</span> Old Site</p>
+                </a>
+                <a href="./fases/ladoB/C3B_en.html">
+                    <p><span>3.</span> Celestial Resort</p>
+                </a>
+                <a href="./fases/ladoB/C4B_en.html">
+                    <p><span>4.</span> Golden Ridge</p>
+                </a>
+                <a href="./fases/ladoB/C5B_en.html">
+                    <p><span>5.</span> Mirror Temple</p>
+                </a>
+                <a href="./fases/ladoB/C6B_en.html">
+                    <p><span>6.</span> Reflection</p>
+                </a>
+                <a href="./fases/ladoB/C7B_en.html">
+                    <p><span>7.</span> The Summit</p>
+                </a>
+                <a href="./fases/ladoB/C8B_en.html">
+                    <p class="end"><span>8.</span> Core</p>
+                </a>
+            </div>
+
+            <p class="l2" id="C">
+                <a href="./fases_en.html#sectionCtitle">C-Side</a>
+                <i class="arrowright"></i>
+            <div class="sublist sublistC">
+                <a href="./fases/ladoC/C1C_en.html">
+                    <p class="title"><span>1.</span> Forsaken City</p>
+                </a>
+                <a href="./fases/ladoC/C2C_en.html">
+                    <p><span>2.</span> Old Site</p>
+                </a>
+                <a href="./fases/ladoC/C3C_en.html">
+                    <p><span>3.</span> Celestial Resort</p>
+                </a>
+                <a href="./fases/ladoC/C4C_en.html">
+                    <p><span>4.</span> Golden Ridge</p>
+                </a>
+                <a href="./fases/ladoC/C5C_en.html">
+                    <p><span>5.</span> Mirror Temple</p>
+                </a>
+                <a href="./fases/ladoC/C6C_en.html">
+                    <p><span>6.</span> Reflection</p>
+                </a>
+                <a href="./fases/ladoC/C7C_en.html">
+                    <p><span>7.</span> The Summit</p>
+                </a>
+                <a href="./fases/ladoC/C8C_en.html">
+                    <p class="end"><span>8.</span> Core</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="part">
+            <p class="l1">The game:
+            <p class="l2">
+                <a href="./personagens_en.html">Characters</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="./historia_en.html">Story</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="./coletaveis_en.html">Collectibles</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="./mecanicas_en.html">Mechanics</a>
+            </p>
+        </div>
+
+        <div class="part">
+            <p class="l1">Extra:</p>
+            <p class="l2">
+                <a href="../index_en.html#sectionBtitle">The developers</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="https://www.speedrun.com/celeste">Speedruns</a>
+            </p>
+
+            <br>
+
+            <p class="l2">
+                <a href="./pico8_en.html">Pico-8</a>
+            </p>
+
+            <i onclick="lchange()">
+                <img src="../assets/lchange.svg" alt="LANGUAGE CHANGE">
+            </i>
+        </div>
+    </div>
+
+    <div id="lchange">
+        <i onclick="lchange()">
+            <img src="../assets/lchange.svg" alt="LANGUAGE CHANGE">
+        </i>
+    </div>
+
+
+
+    <main>
+        <h1>Collectibles</h1>
+
+
+        <div class="texto">
+            <p>
+                Celeste features various collectibles distributed throughout the levels. They can serve a purpose for
+                the player beyond just providing an additional challenge.</p>
+
+            <p>To collect a strawberry, the player needs to stay on the ground for a few frames.</p>
+
+            <p>
+                When collecting a strawberry, a visual indicator will appear on the screen showing that 1000 points have
+                been gained, which has no practical use in the game. If multiple strawberries are collected in sequence,
+                the visual score indicator will increase by 1000 points up to 5000. When the score reaches where it
+                should display 6000, the indicator that will appear is "1UP".</p>
+
+            <p>The visual indicator when collecting the Moon Berry is "WOW"</p>
+        </div>
+
+        <h2 id="sectionAtitle" class="sectiontitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron1" onclick="chevron1()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron2" onclick="chevron2()"></i>
+            &nbsp;
+            Strawberries
+        </h2>
+        <div id="sectionA">
+            <div class="texto">
+                <p>
+                    Celeste has a total of 202 strawberries.
+                </p>
+
+                <p>
+                    Strawberries are not necessary to complete or progress in the game; they serve solely as an extra
+                    challenge.
+                </p>
+
+                <p>
+
+                    Depending on the quantity of strawberries the player has, the pie in the <a href="">epilogue</a>
+                    will be different.
+                </p>
+
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Red strawberry:
+                        <p class="p3">
+                            It is the most basic strawberry and is found in greater abundance in the game. They appear
+                            in every Side A, except for Chapter 6 and Chapter 9.
+                        </p>
+                    </div>
+                    <img src="../imgs/redstrawberry.webp" alt="RED STRAWBERRY">
+                </div>
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Strawberry seeds:
+                        </p>
+                        <p class="p3">
+                            Small collectibles that appear in various locations. The seeds are scattered in a single
+                            room. When collecting, the player must grab the remaining seeds without touching the ground;
+                            otherwise, the seeds will return to their respective locations. When all seeds are
+                            collected, an animation will start, showing the appearance of a red strawberry.
+                        </p>
+                    </div>
+                    <img src="../imgs/seedstrawberry.webp" alt="STRAWBERRY SEED">
+                </div>
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Winged strawberry:
+                        </p>
+                        <p class="p3">
+                            Special red strawberries that, when dashing in the room they are located, will fly to the
+                            top of the screen until they disappear. To attempt to collect it again, simply exit and
+                            re-enter the room to recharge it.
+                        </p>
+                    </div>
+                    <img src="../imgs/wingedstrawberry.webp" alt="WINGED STRAWBERRY">
+                </div>
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Golden strawberry:
+                        </p>
+                        <p class="p3">
+                            Obtained after completing the level while holding the golden strawberry. It can only be
+                            obtained after completing Side B of Chapter 8. It is collected by reaching the end of
+                            Chapter A, or by collecting the crystal heart from Chapter B or C. If the player dies while
+                            holding the golden strawberry, they will return to the beginning of the chapter.
+                        </p>
+                    </div>
+                    <img src="../imgs/goldenstrawberry.webp" alt="GOLDEN STRAWBERRY">
+                </div>
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Winged golden strawberry:
+                        </p>
+                        <p class="p3">
+                            An exclusive strawberry from <a href="./fases/ladoA/C1A_en.html">Chapter 1 Side A</a>.
+                            Obtained after completing the entire chapter without using the dash. It is located in the
+                            last room of the chapter. Before reaching the last room, the strawberry will only disappear
+                            if the player goes through a screen transition after using the dash. Therefore, if the
+                            player accidentally uses the dash, it is necessary to die before moving to another room.
+                        </p>
+                        <p class="p3">
+                            - <a>See also: How to find...</a>
+                        </p>
+                    </div>
+                    <img src="../imgs/wingedgoldenstrawberry.webp" alt="WINGED GOLDEN STRAWBERRY">
+                </div>
+
+                <div class="txtandimg">
+                    <div class="item">
+                        <p class="p2">
+                            • Moon Berry:
+                        <p class="p3">
+
+                            Exclusive strawberry from <a href="./fases/ladoA/C9A_en.html">chapter 9</a>. To obtain it,
+                            you
+                            need to have finished the chapter, so you must reach the final room again. After turning off
+                            the power in the room, the player needs to retrace their steps and make their way back to
+                            the top of the room. Afterward, the player will reach a secret room where they must die on
+                            the crystals, causing them to reappear on the other side of the room. Then, the player will
+                            enter a final secret room, where, near the end, the Moon Berry will be located. If the
+                            player has the golden strawberry, dying on the crystals will not send the player back to the
+                            beginning of the chapter.
+                        </p>
+                        <p class="p3">
+                            - <a>See also: How to find...</a>
+                        </p>
+                    </div>
+                    <img src="../imgs/moonstrawberry.webp" alt="MOON STRAWBERRY">
+                </div>
+            </div>
+        </div>
+
+        <h2 id="sectionBtitle" class="sectiontitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron3" onclick="chevron3()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron4" onclick="chevron4()"></i>
+            &nbsp;
+            Crystal Hearts
+        </h2>
+        <div id="sectionB">
+            <div class="texto">
+                <p>Celeste has a total of 24 crystal hearts, excluding the fake crystal heart found in <a
+                        href="./fases/ladoA/C9A_en.html">chapter 9</a>.</p>
+
+                <p>The hearts on Side A involve completing some type of puzzle, while on Side B and Side C, it is
+                    necessary to complete the level only.</p>
+
+                <div class="txtandimg">
+                    <p>• Side A: Blue Heart:</p>
+                    <img src="../imgs/acrystalheart.webp" alt="A-SIDE HEART">
+                </div>
+
+                <div class="txtandimg">
+                    <p>• Side B: Red Heart:</p>
+                    <img src="../imgs/bcrystalheart.webp" alt="B-SIDE HEART">
+                </div>
+
+                <div class="txtandimg">
+                    <p>• Side C: Yellow Heart:</p>
+                    <img src="../imgs/ccrystalheart.webp" alt="C-SIDE HEART">
+                </div>
+
+                <div class="txtandimg">
+                    <p>• Chapter 9: Gray Heart:</p>
+                    <img src="../imgs/9crystalheart.webp" alt="CH 9 HEART">
+                </div>
+            </div>
+        </div>
+
+        <h2 id="sectonCtitle" class="sectiontitle">
+            <i class="fa-solid fa-chevron-up chevron" id="chevron5" onclick="chevron5()"></i>
+            <i class="fa-solid fa-chevron-down chevron chevronhidden" id="chevron6" onclick="chevron6()"></i>
+            &nbsp;
+            Cassette
+        </h2>
+        <div id="sectionC">
+            <div class="texto">
+                <p>Cassette tapes are present in all Side A levels except for chapter 9.</p>
+
+                <p>
+                    The cassette tape for the chapters will always be found in a secret room with multiple <a>rhythm
+                        blocks</a>.</p>
+
+                <p>
+                    Upon collecting a cassette tape, the player will be taken to the beginning of the room (except in
+                    chapter 8, where the player will be taken to the end) through a bubble.</p>
+
+                <div class="imgdesc">
+                    <img src="../imgs/cassette.webp" alt="CASSETTE">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../menu.js"></script>
+
+    <script src="../lchange.js"></script>
+
+    <script src="../chevron.js"></script>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
